@@ -61,12 +61,12 @@ banner
     border-radius: 0px;
 }
 .navbar-default {
-    background-color: #fff;
+    background-color: RGBA(13, 70, 83, 0.78);
     padding: 20px 0;
     transition: all 0.3s;
 }
 .navbar-default {
-    background-color: transparent;
+    /* background-color: transparent; */
     border: 0px;
 }
 .navbar {
