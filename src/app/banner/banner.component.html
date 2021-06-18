@@ -1,9 +1,6 @@
 <!--banner-->
 <section id="banner" class="banner">
-  <div class="bg-color">
-
-    <app-header></app-header>
-    
+  <div class="bg-color">    
     <div class="container">
       <div class="row">
         <div class="banner-info">
@@ -13,7 +10,7 @@
           <div class="banner-text text-center service-info">
             <h1 class="white margin-bottom-40">#FiqueEmCasa</h1>
             <div class="md-col-12 white">
-              <a href="#contact" class="btn btn-appoint">Pré-cadastro</a>
+              <a (click)="navegarParaPreCadastro()" class="btn btn-appoint">Pré-cadastro</a>
             </div>
             <div class="md-col-12">
               <a href="#contact" class="btn btn-appoint">Agendar vacina</a>
