@@ -13,7 +13,7 @@ export class BannerComponent implements OnInit {
   ngOnInit() {
   }
 
-  public navegarParaPreCadastro(): void {
-    this.route.navigateByUrl('pre-cadastro')
+  public navegarPara(url: string): void {
+    this.route.navigateByUrl(url)
   }
 }

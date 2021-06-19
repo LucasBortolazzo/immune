@@ -74,13 +74,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -91,7 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  width: 200px;
+  height: 150px;
 }
 
 @media (max-width: 768px) {
@@ -348,7 +348,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
   color: #fff;
 }
 
@@ -358,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-banner {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -370,11 +369,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   border: 2px solid #85b0be;
   color: #fff;
+  min-width: 320px;
+  margin-bottom: 10px;
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-banner:hover {
   background: #85b0be;
   border: 2px solid #85b0be;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {
