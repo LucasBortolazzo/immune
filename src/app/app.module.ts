@@ -13,7 +13,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import {ROUTES} from './app.routes';
-import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component'
+import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component';
+import { AskedQuestionsComponent } from './asked-questions/asked-questions.component'
 
 @NgModule({
   declarations: [
@@ -25,12 +26,13 @@ import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component'
     ContactComponent,
     FooterComponent,
     HomeComponent,
-    PreCadastroComponent
+    PreCadastroComponent,
+    AskedQuestionsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(ROUTES, {useHash: true}),
+    RouterModule.forRoot(ROUTES, {useHash: false}),
   ],
   providers: [],
   bootstrap: [AppComponent]
